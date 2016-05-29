@@ -18,6 +18,9 @@ namespace icarto
         {
             InitializeComponent();
 
+            //this.materialFlatButton1.Location = new Point(this.Size.Width - 200, this.Size.Height + 200);
+
+
             //≥ı ºªØMaterialSkinManager
             materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);

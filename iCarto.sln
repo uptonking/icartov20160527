@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialSkin", "libs\Materi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarto", "iCarto\iCarto.csproj", "{4374091E-5C88-4961-8016-6058D0D69D34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LollipopUI", "libs\LollipopUI\LollipopUI.csproj", "{EB11C287-896C-4DBD-8EC4-62E8CAE22110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,16 @@ Global
 		{4374091E-5C88-4961-8016-6058D0D69D34}.Release|Mixed Platforms.Build.0 = Release|x86
 		{4374091E-5C88-4961-8016-6058D0D69D34}.Release|x86.ActiveCfg = Release|x86
 		{4374091E-5C88-4961-8016-6058D0D69D34}.Release|x86.Build.0 = Release|x86
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +68,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC} = {CEB5A42F-C3F2-4577-960A-F3BF74C77D26}
 		{8EB7611B-68CD-4B8B-987A-11717E2B250C} = {CEB5A42F-C3F2-4577-960A-F3BF74C77D26}
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110} = {CEB5A42F-C3F2-4577-960A-F3BF74C77D26}
 	EndGlobalSection
 EndGlobal

@@ -126,6 +126,9 @@
     <Reference Include="ESRI.ArcGIS.Version, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="LollipopUI">
+      <HintPath>..\libs\LollipopUI\obj\Debug\LollipopUI.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialSkin">
       <HintPath>..\libs\MaterialSkin\bin\Debug\MaterialSkin.dll</HintPath>
     </Reference>
@@ -489,40 +492,55 @@
     <Content Include="res\data\lhk铁路线shapefile\grailn.shp.xml" />
     <Content Include="res\images\icons\CornerTag.png" />
     <Content Include="res\images\icons\iCartoLogo_512.png" />
-    <Content Include="res\maps\交通1综合图.JPG" />
-    <Content Include="res\maps\交通2公路版.JPG" />
-    <Content Include="res\maps\交通3主干线.JPG" />
-    <Content Include="res\maps\交通4数据渲染图.JPG" />
-    <Content Include="res\maps\交通5公交站亭.JPG" />
-    <Content Include="res\maps\其他图1空气质量图.JPG" />
-    <Content Include="res\maps\其他图2旅游玩乐图.JPG" />
-    <Content Include="res\maps\其他图3地震灾害.JPG" />
-    <Content Include="res\maps\国土1地表覆盖.JPG" />
-    <Content Include="res\maps\国土2地理概况.jpg" />
-    <Content Include="res\maps\国土3地表覆被指数.jpg" />
-    <Content Include="res\maps\国土4居民地.JPG" />
-    <Content Include="res\maps\国土5水系.JPG" />
-    <Content Include="res\maps\城管1网格图.JPG" />
-    <Content Include="res\maps\城管2执法单位图.JPG" />
-    <Content Include="res\maps\城管3垃圾间分布图.JPG" />
-    <Content Include="res\maps\城管4工地分布图.JPG" />
-    <Content Include="res\maps\测绘1地形图500.jpg" />
-    <Content Include="res\maps\测绘2地形图2000.JPG" />
-    <Content Include="res\maps\测绘3地形图10000.jpg" />
-    <Content Include="res\maps\测绘4地形图50000.JPG" />
-    <Content Include="res\maps\社管1智慧社管网格图.JPG" />
-    <Content Include="res\maps\社管2报刊亭分布图.JPG" />
-    <Content Include="res\maps\社管3电话亭分布图.JPG" />
-    <Content Include="res\maps\社管4户外健身设施分布图.JPG" />
-    <Content Include="res\maps\社管5街头座椅与休息亭分布图.JPG" />
-    <Content Include="res\maps\网眼图模板800.jpg" />
-    <Content Include="res\maps\规划1城区.JPG" />
-    <Content Include="res\maps\规划2核心城区.JPG" />
-    <Content Include="res\maps\规划3公厕分布图.JPG" />
-    <Content Include="res\maps\警用1监控电子眼分布图.JPG" />
-    <Content Include="res\maps\警用2治安岗亭分布图.JPG" />
-    <Content Include="res\maps\警用3重大危险源分布图.JPG" />
-    <Content Include="res\maps\警用4消防设施分布图.JPG" />
+    <Content Include="res\maps\交通交通线路图.jpg" />
+    <Content Include="res\maps\交通公路版.jpg" />
+    <Content Include="res\maps\其他旅游玩乐图.jpg" />
+    <Content Include="res\maps\其他老河口空气质量图.jpg" />
+    <Content Include="res\maps\国土地表覆盖.jpg" />
+    <Content Include="res\maps\城管执法单位图.jpg" />
+    <Content Include="res\maps\城管网格图.jpg" />
+    <Content Include="res\maps\测绘基础地形图1W.jpg" />
+    <Content Include="res\maps\测绘基础地形图2K.jpg" />
+    <Content Include="res\maps\测绘基础地形图500.jpg" />
+    <Content Include="res\maps\测绘基础地形图5W.jpg" />
+    <Content Include="res\maps\社管网格图.jpg" />
+    <Content Include="res\maps\规划行政区划.jpg" />
+    <Content Include="res\maps\警用底图.jpg" />
+    <Content Include="res\maps\警用监控电子眼分布图.jpg" />
+    <Content Include="res\trash\交通1综合图.JPG" />
+    <Content Include="res\trash\交通2公路版.JPG" />
+    <Content Include="res\trash\交通3主干线.JPG" />
+    <Content Include="res\trash\交通4数据渲染图.JPG" />
+    <Content Include="res\trash\交通5公交站亭.JPG" />
+    <Content Include="res\trash\其他图1空气质量图.JPG" />
+    <Content Include="res\trash\其他图2旅游玩乐图.JPG" />
+    <Content Include="res\trash\其他图3地震灾害.JPG" />
+    <Content Include="res\trash\国土1地表覆盖.JPG" />
+    <Content Include="res\trash\国土2地理概况.jpg" />
+    <Content Include="res\trash\国土3地表覆被指数.jpg" />
+    <Content Include="res\trash\国土4居民地.JPG" />
+    <Content Include="res\trash\国土5水系.JPG" />
+    <Content Include="res\trash\城管1网格图.JPG" />
+    <Content Include="res\trash\城管2执法单位图.JPG" />
+    <Content Include="res\trash\城管3垃圾间分布图.JPG" />
+    <Content Include="res\trash\城管4工地分布图.JPG" />
+    <Content Include="res\trash\测绘1地形图500.jpg" />
+    <Content Include="res\trash\测绘2地形图2000.JPG" />
+    <Content Include="res\trash\测绘3地形图10000.jpg" />
+    <Content Include="res\trash\测绘4地形图50000.JPG" />
+    <Content Include="res\trash\社管1智慧社管网格图.JPG" />
+    <Content Include="res\trash\社管2报刊亭分布图.JPG" />
+    <Content Include="res\trash\社管3电话亭分布图.JPG" />
+    <Content Include="res\trash\社管4户外健身设施分布图.JPG" />
+    <Content Include="res\trash\社管5街头座椅与休息亭分布图.JPG" />
+    <Content Include="res\trash\网眼图模板800.jpg" />
+    <Content Include="res\trash\规划1城区.JPG" />
+    <Content Include="res\trash\规划2核心城区.JPG" />
+    <Content Include="res\trash\规划3公厕分布图.JPG" />
+    <Content Include="res\trash\警用1监控电子眼分布图.JPG" />
+    <Content Include="res\trash\警用2治安岗亭分布图.JPG" />
+    <Content Include="res\trash\警用3重大危险源分布图.JPG" />
+    <Content Include="res\trash\警用4消防设施分布图.JPG" />
     <Content Include="res\symbols\esri\Cartographic\esriCartographyMarker_100.png" />
     <Content Include="res\symbols\esri\Cartographic\esriCartographyMarker_100_Blue.png" />
     <Content Include="res\symbols\esri\Cartographic\esriCartographyMarker_100_Green.png" />
@@ -1266,9 +1284,7 @@
     <Content Include="res\symbols\esri\web\Work-Zone-Line.png" />
     <Content Include="res\symbols\esri\web\Work-Zones.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="res\trash\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
