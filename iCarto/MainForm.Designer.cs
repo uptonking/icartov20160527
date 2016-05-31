@@ -30,198 +30,51 @@ namespace icarto
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
-            this.materialRadioButton4 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialRadioButton3 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialRadioButton2 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialCheckbox4 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialRadioButton1 = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rightIbtn = new FontAwesomeIcons.IconButton();
+            this.leftIbtn = new FontAwesomeIcons.IconButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.operatorPanel = new System.Windows.Forms.Panel();
+            this.maptViewIBtn = new FontAwesomeIcons.IconButton();
+            this.maptUseIBtn = new FontAwesomeIcons.IconButton();
+            this.materialFlatButton3 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.materialFlatButton2 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.maptLogoLbl = new System.Windows.Forms.Label();
+            this.descPanel = new System.Windows.Forms.Panel();
+            this.maptExpDescLbl = new System.Windows.Forms.Label();
+            this.maptMakeupDescLbl = new System.Windows.Forms.Label();
+            this.maptTitleLbl = new System.Windows.Forms.Label();
+            this.largeMaptPcb = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.materialCheckBox6 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox5 = new MaterialSkin.Controls.MaterialCheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.materialProgressBar1 = new MaterialSkin.Controls.MaterialProgressBar();
-            this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
+            this.maptDetailsPnl = new System.Windows.Forms.Panel();
+            this.maptThumbListPnl = new System.Windows.Forms.Panel();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rightIbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.leftIbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.operatorPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.maptViewIBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maptUseIBtn)).BeginInit();
+            this.descPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.largeMaptPcb)).BeginInit();
+            this.maptDetailsPnl.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // materialFlatButton1
-            // 
-            this.materialFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialFlatButton1.AutoSize = true;
-            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.Location = new System.Drawing.Point(995, 38);
-            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton1.Name = "materialFlatButton1";
-            this.materialFlatButton1.Primary = true;
-            this.materialFlatButton1.Size = new System.Drawing.Size(72, 36);
-            this.materialFlatButton1.TabIndex = 1;
-            this.materialFlatButton1.Text = "测试用户";
-            this.materialFlatButton1.UseVisualStyleBackColor = true;
-            // 
-            // materialRadioButton4
-            // 
-            this.materialRadioButton4.AutoSize = true;
-            this.materialRadioButton4.Checked = true;
-            this.materialRadioButton4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialRadioButton4.Depth = 0;
-            this.materialRadioButton4.Enabled = false;
-            this.materialRadioButton4.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton4.Location = new System.Drawing.Point(0, 98);
-            this.materialRadioButton4.Margin = new System.Windows.Forms.Padding(0);
-            this.materialRadioButton4.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton4.Name = "materialRadioButton4";
-            this.materialRadioButton4.Ripple = true;
-            this.materialRadioButton4.Size = new System.Drawing.Size(163, 30);
-            this.materialRadioButton4.TabIndex = 15;
-            this.materialRadioButton4.TabStop = true;
-            this.materialRadioButton4.Text = "materialRadioButton4";
-            this.materialRadioButton4.UseVisualStyleBackColor = true;
-            // 
-            // materialRadioButton3
-            // 
-            this.materialRadioButton3.AutoSize = true;
-            this.materialRadioButton3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialRadioButton3.Depth = 0;
-            this.materialRadioButton3.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton3.Location = new System.Drawing.Point(0, 68);
-            this.materialRadioButton3.Margin = new System.Windows.Forms.Padding(0);
-            this.materialRadioButton3.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton3.Name = "materialRadioButton3";
-            this.materialRadioButton3.Ripple = true;
-            this.materialRadioButton3.Size = new System.Drawing.Size(163, 30);
-            this.materialRadioButton3.TabIndex = 11;
-            this.materialRadioButton3.Text = "materialRadioButton3";
-            this.materialRadioButton3.UseVisualStyleBackColor = true;
-            // 
-            // materialRadioButton2
-            // 
-            this.materialRadioButton2.AutoSize = true;
-            this.materialRadioButton2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialRadioButton2.Depth = 0;
-            this.materialRadioButton2.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton2.Location = new System.Drawing.Point(0, 38);
-            this.materialRadioButton2.Margin = new System.Windows.Forms.Padding(0);
-            this.materialRadioButton2.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton2.Name = "materialRadioButton2";
-            this.materialRadioButton2.Ripple = true;
-            this.materialRadioButton2.Size = new System.Drawing.Size(163, 30);
-            this.materialRadioButton2.TabIndex = 10;
-            this.materialRadioButton2.Text = "materialRadioButton2";
-            this.materialRadioButton2.UseVisualStyleBackColor = true;
-            // 
-            // materialCheckbox4
-            // 
-            this.materialCheckbox4.AutoSize = true;
-            this.materialCheckbox4.Depth = 0;
-            this.materialCheckbox4.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckbox4.Location = new System.Drawing.Point(0, 98);
-            this.materialCheckbox4.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox4.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox4.Name = "materialCheckbox4";
-            this.materialCheckbox4.Ripple = true;
-            this.materialCheckbox4.Size = new System.Drawing.Size(149, 30);
-            this.materialCheckbox4.TabIndex = 7;
-            this.materialCheckbox4.Text = "materialCheckbox4";
-            this.materialCheckbox4.UseVisualStyleBackColor = true;
-            // 
-            // materialCheckbox3
-            // 
-            this.materialCheckbox3.AutoSize = true;
-            this.materialCheckbox3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialCheckbox3.Depth = 0;
-            this.materialCheckbox3.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckbox3.Location = new System.Drawing.Point(0, 68);
-            this.materialCheckbox3.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox3.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox3.Name = "materialCheckbox3";
-            this.materialCheckbox3.Ripple = true;
-            this.materialCheckbox3.Size = new System.Drawing.Size(149, 30);
-            this.materialCheckbox3.TabIndex = 6;
-            this.materialCheckbox3.Text = "materialCheckbox3";
-            this.materialCheckbox3.UseVisualStyleBackColor = true;
-            // 
-            // materialCheckbox2
-            // 
-            this.materialCheckbox2.AutoSize = true;
-            this.materialCheckbox2.Checked = true;
-            this.materialCheckbox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.materialCheckbox2.Depth = 0;
-            this.materialCheckbox2.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckbox2.Location = new System.Drawing.Point(0, 38);
-            this.materialCheckbox2.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox2.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox2.Name = "materialCheckbox2";
-            this.materialCheckbox2.Ripple = true;
-            this.materialCheckbox2.Size = new System.Drawing.Size(149, 30);
-            this.materialCheckbox2.TabIndex = 5;
-            this.materialCheckbox2.Text = "materialCheckbox2";
-            this.materialCheckbox2.UseVisualStyleBackColor = true;
-            // 
-            // materialCheckbox1
-            // 
-            this.materialCheckbox1.AutoSize = true;
-            this.materialCheckbox1.Checked = true;
-            this.materialCheckbox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.materialCheckbox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialCheckbox1.Depth = 0;
-            this.materialCheckbox1.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckbox1.Location = new System.Drawing.Point(0, 8);
-            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox1.Name = "materialCheckbox1";
-            this.materialCheckbox1.Ripple = true;
-            this.materialCheckbox1.Size = new System.Drawing.Size(149, 30);
-            this.materialCheckbox1.TabIndex = 4;
-            this.materialCheckbox1.Text = "materialCheckbox1";
-            this.materialCheckbox1.UseVisualStyleBackColor = true;
-            // 
-            // materialRadioButton1
-            // 
-            this.materialRadioButton1.AutoSize = true;
-            this.materialRadioButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialRadioButton1.Depth = 0;
-            this.materialRadioButton1.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialRadioButton1.Location = new System.Drawing.Point(0, 8);
-            this.materialRadioButton1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialRadioButton1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton1.Name = "materialRadioButton1";
-            this.materialRadioButton1.Ripple = true;
-            this.materialRadioButton1.Size = new System.Drawing.Size(163, 30);
-            this.materialRadioButton1.TabIndex = 9;
-            this.materialRadioButton1.Text = "materialRadioButton1";
-            this.materialRadioButton1.UseVisualStyleBackColor = true;
             // 
             // materialTabSelector1
             // 
@@ -256,189 +109,340 @@ namespace icarto
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.pictureBox1);
-            this.tabPage1.Controls.Add(this.materialDivider1);
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
+            this.tabPage1.Controls.Add(this.rightIbtn);
+            this.tabPage1.Controls.Add(this.leftIbtn);
+            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Controls.Add(this.label3);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.pictureBox5);
+            this.tabPage1.Controls.Add(this.pictureBox4);
+            this.tabPage1.Controls.Add(this.pictureBox3);
+            this.tabPage1.Controls.Add(this.pictureBox2);
+            this.tabPage1.Controls.Add(this.maptLogoLbl);
+            this.tabPage1.Controls.Add(this.maptDetailsPnl);
+            this.tabPage1.Controls.Add(this.maptThumbListPnl);
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1072, 498);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "最热地图";
             // 
-            // pictureBox1
+            // rightIbtn
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(80, 31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(533, 300);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.rightIbtn.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
+            this.rightIbtn.BackColor = System.Drawing.Color.Transparent;
+            this.rightIbtn.IconType = FontAwesomeIcons.IconType.ChevronRight;
+            this.rightIbtn.InActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(239)))), ((int)(((byte)(241)))));
+            this.rightIbtn.Location = new System.Drawing.Point(1026, 351);
+            this.rightIbtn.Name = "rightIbtn";
+            this.rightIbtn.Size = new System.Drawing.Size(28, 120);
+            this.rightIbtn.TabIndex = 28;
+            this.rightIbtn.TabStop = false;
+            this.rightIbtn.ToolTipText = null;
+            // 
+            // leftIbtn
+            // 
+            this.leftIbtn.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
+            this.leftIbtn.BackColor = System.Drawing.Color.Transparent;
+            this.leftIbtn.IconType = FontAwesomeIcons.IconType.ChevronLeft;
+            this.leftIbtn.InActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(239)))), ((int)(((byte)(241)))));
+            this.leftIbtn.Location = new System.Drawing.Point(6, 351);
+            this.leftIbtn.Name = "leftIbtn";
+            this.leftIbtn.Size = new System.Drawing.Size(28, 120);
+            this.leftIbtn.TabIndex = 27;
+            this.leftIbtn.TabStop = false;
+            this.leftIbtn.ToolTipText = null;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 10F);
+            this.label4.ForeColor = System.Drawing.Color.Gray;
+            this.label4.Location = new System.Drawing.Point(840, 474);
+            this.label4.MaximumSize = new System.Drawing.Size(370, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(149, 20);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "警用监控电子眼分布图";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 10F);
+            this.label3.ForeColor = System.Drawing.Color.Gray;
+            this.label3.Location = new System.Drawing.Point(569, 474);
+            this.label3.MaximumSize = new System.Drawing.Size(370, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(184, 20);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "1:500国家基本比例尺地形图";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10F);
+            this.label2.ForeColor = System.Drawing.Color.Gray;
+            this.label2.Location = new System.Drawing.Point(363, 474);
+            this.label2.MaximumSize = new System.Drawing.Size(370, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 20);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "城管网格图";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10F);
+            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.Location = new System.Drawing.Point(110, 474);
+            this.label1.MaximumSize = new System.Drawing.Size(370, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 20);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "交通线路图";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::icarto.Properties.Resources.警用监控电子眼分布图;
+            this.pictureBox5.Location = new System.Drawing.Point(803, 351);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(213, 120);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 23;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::icarto.Properties.Resources.城管网格图;
+            this.pictureBox4.Location = new System.Drawing.Point(299, 351);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(213, 120);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::icarto.Properties.Resources.测绘基础地形图500;
+            this.pictureBox3.Location = new System.Drawing.Point(551, 351);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(213, 120);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 21;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::icarto.Properties.Resources.交通交通线路图;
+            this.pictureBox2.Location = new System.Drawing.Point(47, 351);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(213, 120);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // operatorPanel
+            // 
+            this.operatorPanel.Controls.Add(this.maptViewIBtn);
+            this.operatorPanel.Controls.Add(this.maptUseIBtn);
+            this.operatorPanel.Controls.Add(this.materialFlatButton3);
+            this.operatorPanel.Controls.Add(this.materialFlatButton2);
+            this.operatorPanel.Location = new System.Drawing.Point(493, 212);
+            this.operatorPanel.Name = "operatorPanel";
+            this.operatorPanel.Size = new System.Drawing.Size(380, 51);
+            this.operatorPanel.TabIndex = 19;
+            // 
+            // maptViewIBtn
+            // 
+            this.maptViewIBtn.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
+            this.maptViewIBtn.BackColor = System.Drawing.Color.Transparent;
+            this.maptViewIBtn.IconType = FontAwesomeIcons.IconType.Eye;
+            this.maptViewIBtn.InActiveColor = System.Drawing.Color.DimGray;
+            this.maptViewIBtn.Location = new System.Drawing.Point(146, 15);
+            this.maptViewIBtn.Name = "maptViewIBtn";
+            this.maptViewIBtn.Size = new System.Drawing.Size(22, 22);
+            this.maptViewIBtn.TabIndex = 3;
+            this.maptViewIBtn.TabStop = false;
+            this.maptViewIBtn.ToolTipText = null;
+            // 
+            // maptUseIBtn
+            // 
+            this.maptUseIBtn.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
+            this.maptUseIBtn.BackColor = System.Drawing.Color.Transparent;
+            this.maptUseIBtn.IconType = FontAwesomeIcons.IconType.HandOUp;
+            this.maptUseIBtn.InActiveColor = System.Drawing.Color.DimGray;
+            this.maptUseIBtn.Location = new System.Drawing.Point(20, 15);
+            this.maptUseIBtn.Name = "maptUseIBtn";
+            this.maptUseIBtn.Size = new System.Drawing.Size(22, 22);
+            this.maptUseIBtn.TabIndex = 2;
+            this.maptUseIBtn.TabStop = false;
+            this.maptUseIBtn.ToolTipText = null;
+            // 
+            // materialFlatButton3
+            // 
+            this.materialFlatButton3.AutoSize = true;
+            this.materialFlatButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialFlatButton3.Depth = 0;
+            this.materialFlatButton3.Location = new System.Drawing.Point(170, 9);
+            this.materialFlatButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialFlatButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton3.Name = "materialFlatButton3";
+            this.materialFlatButton3.Primary = false;
+            this.materialFlatButton3.Size = new System.Drawing.Size(72, 36);
+            this.materialFlatButton3.TabIndex = 1;
+            this.materialFlatButton3.Text = "查看详情";
+            this.materialFlatButton3.UseVisualStyleBackColor = true;
+            // 
+            // materialFlatButton2
+            // 
+            this.materialFlatButton2.AutoSize = true;
+            this.materialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialFlatButton2.Depth = 0;
+            this.materialFlatButton2.Location = new System.Drawing.Point(44, 9);
+            this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton2.Name = "materialFlatButton2";
+            this.materialFlatButton2.Primary = false;
+            this.materialFlatButton2.Size = new System.Drawing.Size(72, 36);
+            this.materialFlatButton2.TabIndex = 0;
+            this.materialFlatButton2.Text = "使用模板";
+            this.materialFlatButton2.UseVisualStyleBackColor = true;
+            this.materialFlatButton2.Click += new System.EventHandler(this.materialFlatButton2_Click);
+            // 
+            // maptLogoLbl
+            // 
+            this.maptLogoLbl.AutoSize = true;
+            this.maptLogoLbl.Font = new System.Drawing.Font("Microsoft YaHei", 16F);
+            this.maptLogoLbl.ForeColor = System.Drawing.Color.Gray;
+            this.maptLogoLbl.Location = new System.Drawing.Point(126, 16);
+            this.maptLogoLbl.Name = "maptLogoLbl";
+            this.maptLogoLbl.Size = new System.Drawing.Size(101, 30);
+            this.maptLogoLbl.TabIndex = 2;
+            this.maptLogoLbl.Text = "地图模板";
+            // 
+            // descPanel
+            // 
+            this.descPanel.Controls.Add(this.maptTitleLbl);
+            this.descPanel.Controls.Add(this.maptMakeupDescLbl);
+            this.descPanel.Controls.Add(this.maptExpDescLbl);
+            this.descPanel.Location = new System.Drawing.Point(493, 7);
+            this.descPanel.Name = "descPanel";
+            this.descPanel.Size = new System.Drawing.Size(380, 200);
+            this.descPanel.TabIndex = 18;
+            // 
+            // maptExpDescLbl
+            // 
+            this.maptExpDescLbl.AutoSize = true;
+            this.maptExpDescLbl.Font = new System.Drawing.Font("Microsoft YaHei", 10F);
+            this.maptExpDescLbl.ForeColor = System.Drawing.Color.Gray;
+            this.maptExpDescLbl.Location = new System.Drawing.Point(4, 119);
+            this.maptExpDescLbl.MaximumSize = new System.Drawing.Size(370, 0);
+            this.maptExpDescLbl.Name = "maptExpDescLbl";
+            this.maptExpDescLbl.Size = new System.Drawing.Size(93, 20);
+            this.maptExpDescLbl.TabIndex = 2;
+            this.maptExpDescLbl.Text = "地图导出简介";
+            // 
+            // maptMakeupDescLbl
+            // 
+            this.maptMakeupDescLbl.AutoSize = true;
+            this.maptMakeupDescLbl.Font = new System.Drawing.Font("Microsoft YaHei", 10F);
+            this.maptMakeupDescLbl.ForeColor = System.Drawing.Color.Gray;
+            this.maptMakeupDescLbl.Location = new System.Drawing.Point(4, 48);
+            this.maptMakeupDescLbl.MaximumSize = new System.Drawing.Size(370, 0);
+            this.maptMakeupDescLbl.Name = "maptMakeupDescLbl";
+            this.maptMakeupDescLbl.Size = new System.Drawing.Size(93, 20);
+            this.maptMakeupDescLbl.TabIndex = 1;
+            this.maptMakeupDescLbl.Text = "模板构成简介";
+            // 
+            // maptTitleLbl
+            // 
+            this.maptTitleLbl.AutoSize = true;
+            this.maptTitleLbl.Font = new System.Drawing.Font("Microsoft YaHei", 16F);
+            this.maptTitleLbl.ForeColor = System.Drawing.Color.Gray;
+            this.maptTitleLbl.Location = new System.Drawing.Point(4, 4);
+            this.maptTitleLbl.Name = "maptTitleLbl";
+            this.maptTitleLbl.Size = new System.Drawing.Size(316, 30);
+            this.maptTitleLbl.TabIndex = 0;
+            this.maptTitleLbl.Text = "1:50000国家基本比例尺地形图";
+            // 
+            // largeMaptPcb
+            // 
+            this.largeMaptPcb.Image = global::icarto.Properties.Resources.测绘基础地形图5W;
+            this.largeMaptPcb.Location = new System.Drawing.Point(25, 16);
+            this.largeMaptPcb.Name = "largeMaptPcb";
+            this.largeMaptPcb.Size = new System.Drawing.Size(444, 250);
+            this.largeMaptPcb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.largeMaptPcb.TabIndex = 17;
+            this.largeMaptPcb.TabStop = false;
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.White;
-            this.tabPage2.Controls.Add(this.materialCheckBox6);
-            this.tabPage2.Controls.Add(this.materialCheckBox5);
-            this.tabPage2.Controls.Add(this.materialCheckbox3);
-            this.tabPage2.Controls.Add(this.materialCheckbox1);
-            this.tabPage2.Controls.Add(this.materialCheckbox2);
-            this.tabPage2.Controls.Add(this.materialCheckbox4);
             this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1072, 498);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            // 
-            // materialCheckBox6
-            // 
-            this.materialCheckBox6.AutoSize = true;
-            this.materialCheckBox6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialCheckBox6.Depth = 0;
-            this.materialCheckBox6.Enabled = false;
-            this.materialCheckBox6.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckBox6.Location = new System.Drawing.Point(0, 158);
-            this.materialCheckBox6.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckBox6.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox6.Name = "materialCheckBox6";
-            this.materialCheckBox6.Ripple = true;
-            this.materialCheckBox6.Size = new System.Drawing.Size(150, 30);
-            this.materialCheckBox6.TabIndex = 9;
-            this.materialCheckBox6.Text = "materialCheckBox6";
-            this.materialCheckBox6.UseVisualStyleBackColor = true;
-            // 
-            // materialCheckBox5
-            // 
-            this.materialCheckBox5.AutoSize = true;
-            this.materialCheckBox5.Checked = true;
-            this.materialCheckBox5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.materialCheckBox5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.materialCheckBox5.Depth = 0;
-            this.materialCheckBox5.Enabled = false;
-            this.materialCheckBox5.Font = new System.Drawing.Font("Roboto", 10F);
-            this.materialCheckBox5.Location = new System.Drawing.Point(0, 128);
-            this.materialCheckBox5.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckBox5.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox5.Name = "materialCheckBox5";
-            this.materialCheckBox5.Ripple = true;
-            this.materialCheckBox5.Size = new System.Drawing.Size(150, 30);
-            this.materialCheckBox5.TabIndex = 8;
-            this.materialCheckBox5.Text = "materialCheckBox5";
-            this.materialCheckBox5.UseVisualStyleBackColor = true;
+            this.tabPage2.Text = "最新地图";
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.White;
-            this.tabPage3.Controls.Add(this.materialRadioButton4);
-            this.tabPage3.Controls.Add(this.materialRadioButton1);
-            this.tabPage3.Controls.Add(this.materialRadioButton2);
-            this.tabPage3.Controls.Add(this.materialRadioButton3);
             this.tabPage3.Location = new System.Drawing.Point(4, 26);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1072, 498);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "MaterialTabPage3";
+            this.tabPage3.Text = "测绘类";
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.materialListView1);
             this.tabPage4.Location = new System.Drawing.Point(4, 26);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(1072, 498);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "ListView";
+            this.tabPage4.Text = "交通类";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // materialListView1
-            // 
-            this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4});
-            this.materialListView1.Depth = 0;
-            this.materialListView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialListView1.Font = new System.Drawing.Font("Roboto", 24F);
-            this.materialListView1.FullRowSelect = true;
-            this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.materialListView1.Location = new System.Drawing.Point(3, 3);
-            this.materialListView1.MouseLocation = new System.Drawing.Point(0, 0);
-            this.materialListView1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialListView1.Name = "materialListView1";
-            this.materialListView1.OwnerDraw = true;
-            this.materialListView1.Size = new System.Drawing.Size(1066, 492);
-            this.materialListView1.TabIndex = 0;
-            this.materialListView1.UseCompatibleStateImageBehavior = false;
-            this.materialListView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Dessert (100g serving)";
-            this.columnHeader1.Width = 200;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Calories";
-            this.columnHeader2.Width = 101;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Fat (g)";
-            this.columnHeader3.Width = 94;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Protein (g)";
-            this.columnHeader4.Width = 154;
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.materialProgressBar1);
             this.tabPage5.Location = new System.Drawing.Point(4, 26);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(1072, 498);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.Text = "国土类";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // materialProgressBar1
+            // maptDetailsPnl
             // 
-            this.materialProgressBar1.Depth = 0;
-            this.materialProgressBar1.Location = new System.Drawing.Point(16, 208);
-            this.materialProgressBar1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialProgressBar1.Name = "materialProgressBar1";
-            this.materialProgressBar1.Size = new System.Drawing.Size(534, 5);
-            this.materialProgressBar1.TabIndex = 0;
-            this.materialProgressBar1.Value = 45;
-            // 
-            // materialDivider1
-            // 
-            this.materialDivider1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.maptDetailsPnl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialDivider1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialDivider1.Depth = 0;
-            this.materialDivider1.Location = new System.Drawing.Point(0, 350);
-            this.materialDivider1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialDivider1.Name = "materialDivider1";
-            this.materialDivider1.Size = new System.Drawing.Size(1080, 1);
-            this.materialDivider1.TabIndex = 16;
-            this.materialDivider1.Text = "materialDivider1";
+            this.maptDetailsPnl.Controls.Add(this.descPanel);
+            this.maptDetailsPnl.Controls.Add(this.operatorPanel);
+            this.maptDetailsPnl.Controls.Add(this.largeMaptPcb);
+            this.maptDetailsPnl.Location = new System.Drawing.Point(89, 49);
+            this.maptDetailsPnl.Name = "maptDetailsPnl";
+            this.maptDetailsPnl.Size = new System.Drawing.Size(900, 280);
+            this.maptDetailsPnl.TabIndex = 29;
+            // 
+            // maptThumbListPnl
+            // 
+            this.maptThumbListPnl.Location = new System.Drawing.Point(0, 340);
+            this.maptThumbListPnl.Name = "maptThumbListPnl";
+            this.maptThumbListPnl.Size = new System.Drawing.Size(1060, 150);
+            this.maptThumbListPnl.TabIndex = 30;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1080, 640);
-            this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.materialTabSelector1);
             this.Controls.Add(this.materialTabControl1);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -447,46 +451,57 @@ namespace icarto
             this.Text = "iCarto快速制图";
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rightIbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.leftIbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.operatorPanel.ResumeLayout(false);
+            this.operatorPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.maptViewIBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maptUseIBtn)).EndInit();
+            this.descPanel.ResumeLayout(false);
+            this.descPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.largeMaptPcb)).EndInit();
+            this.maptDetailsPnl.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckbox1;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckbox2;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckbox3;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckbox4;
-        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton1;
-        private MaterialRadioButton materialRadioButton2;
-        private MaterialRadioButton materialRadioButton3;
-        private MaterialRadioButton materialRadioButton4;
         private MaterialTabSelector materialTabSelector1;
         private MaterialTabControl materialTabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
-        private MaterialCheckBox materialCheckBox5;
-        private MaterialCheckBox materialCheckBox6;
         private TabPage tabPage4;
-        private MaterialListView materialListView1;
-        private ColumnHeader columnHeader1;
-        private ColumnHeader columnHeader2;
-        private ColumnHeader columnHeader3;
-        private ColumnHeader columnHeader4;
+        private Panel descPanel;
+        private PictureBox largeMaptPcb;
+        private Label maptTitleLbl;
+        private Label maptLogoLbl;
+        private Label maptMakeupDescLbl;
+        private Label maptExpDescLbl;
+        private Panel operatorPanel;
+        private MaterialFlatButton materialFlatButton3;
+        private MaterialFlatButton materialFlatButton2;
+        private FontAwesomeIcons.IconButton maptUseIBtn;
+        private FontAwesomeIcons.IconButton maptViewIBtn;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private FontAwesomeIcons.IconButton leftIbtn;
+        private FontAwesomeIcons.IconButton rightIbtn;
         private TabPage tabPage5;
-        private MaterialProgressBar materialProgressBar1;
-        private MaterialDivider materialDivider1;
-        private PictureBox pictureBox1;
+        private Panel maptDetailsPnl;
+        private Panel maptThumbListPnl;
 
     }
 }

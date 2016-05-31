@@ -1,29 +1,27 @@
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
+using System.Text;
 using ESRI.ArcGIS.esriSystem;
-using MaterialSkinExample;
-using icarto.tests;
-using icarto.views;
+using EngineConsoleApplication.tests;
 
-namespace icarto
+namespace EngineConsoleApplication
 {
-    static class Program
+    class Program
     {
-        private static LicenseInitializer m_AOLicenseInitializer = new icarto.LicenseInitializer();
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        private static LicenseInitializer m_AOLicenseInitializer = new EngineConsoleApplication.LicenseInitializer();
+    
+        [STAThread()]
+        static void Main(string[] args)
         {
             //ESRI License Initializer generated code.
             m_AOLicenseInitializer.InitializeApplication(new esriLicenseProductCode[] { esriLicenseProductCode.esriLicenseProductCodeEngine },
             new esriLicenseExtensionCode[] { esriLicenseExtensionCode.esriLicenseExtensionCode3DAnalyst, esriLicenseExtensionCode.esriLicenseExtensionCodeNetwork, esriLicenseExtensionCode.esriLicenseExtensionCodeSpatialAnalyst, esriLicenseExtensionCode.esriLicenseExtensionCodeSchematics, esriLicenseExtensionCode.esriLicenseExtensionCodeMLE, esriLicenseExtensionCode.esriLicenseExtensionCodeDataInteroperability, esriLicenseExtensionCode.esriLicenseExtensionCodeTracking });
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MainForm());
-            Application.Run(new MappingForm());
+            //================================================================================================
+            new StringSplit().getRestStrings("Labl");
+
+
+
+            //================================================================================================
             //ESRI License Initializer generated code.
             //Do not make any call to ArcObjects after ShutDownApplication()
             m_AOLicenseInitializer.ShutdownApplication();

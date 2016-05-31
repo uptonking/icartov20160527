@@ -50,6 +50,7 @@ namespace MaterialSkin
         /// <returns></returns>
         public static Color ToColor(this int argb)
         {
+            //通过按位&清零干扰位，取出有效位
             return Color.FromArgb(
                 (argb & 0xff0000) >> 16,
                 (argb & 0xff00) >> 8,

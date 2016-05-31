@@ -126,6 +126,9 @@
     <Reference Include="ESRI.ArcGIS.Version, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="FontAwesomeIcons">
+      <HintPath>..\libs\FontAwesomeIcons\obj\Debug\FontAwesomeIcons.dll</HintPath>
+    </Reference>
     <Reference Include="LollipopUI">
       <HintPath>..\libs\LollipopUI\obj\Debug\LollipopUI.dll</HintPath>
     </Reference>
@@ -147,6 +150,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="common\ColorHelper.cs" />
+    <Compile Include="common\ColorPalette.cs" />
+    <Compile Include="common\FilePathHelper.cs" />
+    <Compile Include="common\StringHelper.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,11 +190,17 @@
     <Compile Include="tests\TESTForm.Designer.cs">
       <DependentUpon>TESTForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\MappingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\MappingForm.Designer.cs">
+      <DependentUpon>MappingForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -204,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tests\TESTForm.resx">
       <DependentUpon>TESTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\MappingForm.resx">
+      <DependentUpon>MappingForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
