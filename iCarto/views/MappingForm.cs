@@ -15,10 +15,12 @@ namespace icarto.views
 {
     public partial class MappingForm : MaterialForm
     {
-        //当前高亮的菜单图标,默认是地图符号菜单
-        string activeIbtnName = "symIbtn";
+        //当前高亮的菜单图标名称,默认是地图符号菜单
+       private string activeIbtnName = "symIbtn";
 
-        string[] menuLablName = { "usrLabl", "lyrLabl", "symLabl", "txtAnnoLabl", "graphLabl", "layoutLabl","colorLabl", "moreToolsLabl" };
+        //常用配色
+       private Color cBlue = new ColorHelper().getColorByEnum(ColorPalatte.blueActive);
+       private Color cGray = new ColorHelper().getColorByEnum(ColorPalatte.grayInactive);
 
         public MappingForm()
         {
@@ -31,10 +33,9 @@ namespace icarto.views
         private void initBasemap()
         {
             string mxdPath = @"\res\data\s01行政区划.mxd";
-            axMapControl1.LoadMxFile(FilePathHelper.getFileAbsolutePath(mxdPath));
+            axMapControl1.LoadMxFile(new FilePathHelper().getFileAbsolutePath(mxdPath));
         }
 
-     
 
         private void menuIconClick(object sender, EventArgs e)
         {
@@ -43,28 +44,14 @@ namespace icarto.views
             IconButton currentIbtn = sender as IconButton;
             activeIbtnName = currentIbtn.Name;
 
-            if (previousIbtnName ==activeIbtnName)
+            if (previousIbtnName == activeIbtnName)
             {
-                ///相邻2次点击的是同一按钮
-                if (this.menuIconTlpl.Visible)
-                {
-                    this.menuTxtTlpl.Visible = false;
-                    
-                }
-                else
-                {
-                    this.menuTxtTlpl.Visible = true;
-
-                }
+                ///相邻2次点击的是同一按钮，切换文字的可见性
+                new InteractiveHelper().toggleControlVisiable(this.menuTxtTlpl);
             }
             else
             {
-                Color cBlue = new ColorHelper().getColorByEnum(ColorPalatte.blueActive);
-                Color cGray = new ColorHelper().getColorByEnum(ColorPalatte.blueActive);
-
-               
-
-                //高亮当前选择的菜单
+                ///相邻2次点击的是不同按钮，高亮新按钮和文字
                 switch (activeIbtnName)
                 {
                     case "usrIbtn":
@@ -72,7 +59,7 @@ namespace icarto.views
                         usrLabl.ForeColor = cBlue;
                         break;
                     case "lyrIbtn":
-                        lyrIbtn.ForeColor = cBlue;
+                        lyrIbtn.InActiveColor = cBlue;
                         lyrLabl.ForeColor = cBlue;
                         break;
                     case "symIbtn":
@@ -88,7 +75,7 @@ namespace icarto.views
                         graphLabl.ForeColor = cBlue;
                         break;
                     case "layoutIbtn":
-                        layoutIbtn.ForeColor = cBlue;
+                        layoutIbtn.InActiveColor = cBlue;
                         layoutLabl.ForeColor = cBlue;
                         break;
                     case "colorIbtn":
@@ -102,7 +89,7 @@ namespace icarto.views
 
                 }
 
-                //将前一个高亮的菜单变暗
+                ///将前一个高亮的菜单变暗
                 IconButton previousIbtn = this.Controls.Find(previousIbtnName, true)[0] as IconButton;
                 previousIbtn.InActiveColor = cGray;
                 string previousLablName = new StringHelper().getRestStrings(previousIbtnName, "Ibtn") + "Labl";
@@ -112,12 +99,21 @@ namespace icarto.views
             }
 
 
-
-           
-
-
         }
 
-        
+        private void collapseTxtIbtn_Click(object sender, EventArgs e)
+        {
+            new InteractiveHelper().toggleControlVisiable(this.menuTxtTlpl);
+            if (this.menuTxtTlpl.Visible)
+            {
+                collapseTxtIbtn.InActiveColor = cBlue;
+            }
+            else
+            {
+                collapseTxtIbtn.InActiveColor = cGray;
+            }
+        }
+
+
     }
 }

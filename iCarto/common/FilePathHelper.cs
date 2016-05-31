@@ -12,7 +12,7 @@ using System.Threading.Tasks;
     ********************************************************************************/
 namespace icarto.common
 {
-    public static class FilePathHelper
+    public  class FilePathHelper
     {
 
         /// <summary>
@@ -20,7 +20,7 @@ namespace icarto.common
         /// </summary>
         /// <param name="strFilePath">文件在项目中的相对路径</param>
         /// <returns>文件在系统中的绝对路径</returns>
-        public static  string getFileAbsolutePath(string strFilePath)
+        public   string getFileAbsolutePath(string strFilePath)
         {
             string filePath = strFilePath;
             string projectRootPath = System.Windows.Forms.Application.StartupPath + @"../../../";

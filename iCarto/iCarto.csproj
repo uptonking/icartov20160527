@@ -127,10 +127,10 @@
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="FontAwesomeIcons">
-      <HintPath>..\libs\FontAwesomeIcons\obj\Debug\FontAwesomeIcons.dll</HintPath>
+      <HintPath>..\libs\FontAwesomeIcons\bin\Debug\FontAwesomeIcons.dll</HintPath>
     </Reference>
     <Reference Include="LollipopUI">
-      <HintPath>..\libs\LollipopUI\obj\Debug\LollipopUI.dll</HintPath>
+      <HintPath>..\libs\LollipopUI\bin\Debug\LollipopUI.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin">
       <HintPath>..\libs\MaterialSkin\bin\Debug\MaterialSkin.dll</HintPath>
@@ -153,6 +153,7 @@
     <Compile Include="common\ColorHelper.cs" />
     <Compile Include="common\ColorPalette.cs" />
     <Compile Include="common\FilePathHelper.cs" />
+    <Compile Include="common\InteractiveHelper.cs" />
     <Compile Include="common\StringHelper.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>

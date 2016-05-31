@@ -290,6 +290,7 @@
         MailReplyAll = 0xf122,
         Male = 0xf183,
         MapMarker = 0xf041,
+        MapO = 0xf278,
         Maxcdn = 0xf136,
         Medkit = 0xf0Fa,
         MehO = 0xf11a,
